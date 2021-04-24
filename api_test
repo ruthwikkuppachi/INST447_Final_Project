@@ -1,0 +1,62 @@
+{
+ "metadata": {
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.5"
+  },
+  "orig_nbformat": 2,
+  "kernelspec": {
+   "name": "python385jvsc74a57bd0d04d45689db1d358fd8ed664091df199d652bae4d6fc876f6de79fd09feebef2",
+   "display_name": "Python 3.8.5 64-bit ('base': conda)"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2,
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "200\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "'''\n",
+    "Importing Libraries\n",
+    "'''\n",
+    "import pandas as pd\n",
+    "import numpy as np \n",
+    "import requests\n",
+    "import matplotlib.pyplot as plt\n",
+    "\n",
+    "URL = 'https://opendata.arcgis.com/datasets/9fa34e198ad240358c7c36bc063d2058_40.geojson'\n",
+    "\n",
+    "data = requests.get(URL)\n",
+    "\n",
+    "print(data.status_code)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ]
+}
