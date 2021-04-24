@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 data = pd.read_csv('Felony_Sentences.csv')
 
-data.head()
+data.head(10)
 
 
 
