@@ -13,7 +13,6 @@ data = pd.read_csv('Felony_Sentences.csv')
 data.head(10)
 
 
-
 '''RID/Race/offesce type/offense/severity - is the severity of similar crimes the same by race?'''
 
 '''cases by race - how many cases are there per race?'''
